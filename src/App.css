@@ -1,0 +1,12 @@
+ .App{  
+  height: 100vh;  
+ }
+
+ .Block{
+  display: grid;
+  height: 97%;
+  width: 97%;
+  
+  background-color: black;
+ }
+
