@@ -13,6 +13,8 @@ import logOutIcon from "./logOutIcon.svg";
 import Search_icon from "./Search_icon.svg";
 import google_icon from "./google-icon.svg";
 import apple_icon from "./apple.svg";
+import hamburgerIcon from "./hamburgerIcon.svg";
+import closeIcon from "./closeIcon.svg";
 
 export {
   dashboardIcon,
@@ -29,5 +31,7 @@ export {
   logOutIcon,
   Search_icon,
   google_icon,
-  apple_icon
+  apple_icon,
+  hamburgerIcon,
+  closeIcon
 };

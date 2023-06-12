@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import SignInPage from "./pages/SignInPage";
 import { AuthContextProvider } from "./context/AuthContext";
 import Protected from "./components/Protected";
+import MobileMenu from "./components/MobileMenu";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AuthContextProvider>
         <Routes>
           <Route path="/" element={<SignInPage />} />
+          <Route path="/menu" element={<MobileMenu />} />
           <Route
             path="/dashboard"
             element={

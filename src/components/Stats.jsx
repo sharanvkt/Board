@@ -27,15 +27,15 @@ const Stats = () => {
             <option value="July - June 2021">July - June 2021</option>
           </select>
         </div>
-        <div className="flex flex-col md:flex-row">
-          <div className="w-full h-full md:h-2/3 md:w-1/2">
+        <div className="flex flex-col sm:flex-row">
+          <div className="w-full h-48 md:h-full md:w-1/2">
             <Pie data={PieData} />
           </div>
-          <div className="w-full md:w-1/2 mt-6">
+          <div className="w-full md:w-1/2 mt-6 md:mt-0">
             {PieData.labels.map((label, index) => (
               <div
                 key={index}
-                className="mt-5 flex items-center justify-start space-y-2 md:mt-0"
+                className="mt-5 flex items-center justify-start space-y-2"
               >
                 <span
                   className="mr-2 flex items-center justify-center rounded-full"
@@ -54,7 +54,7 @@ const Stats = () => {
         </div>
       </div>
 
-      <div className="flex-1 rounded-2xl p-7 bg-white">
+      <div className="flex-1 rounded-2xl p-7 bg-white mt-5 md:mt-0">
         <div className="flex justify-between items-center">
           <p className="font-bold text-black text-xl">Today's schedules</p>
           <p className="text-[#666666] text-xs font-normal">See All</p>
