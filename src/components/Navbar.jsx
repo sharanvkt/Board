@@ -48,7 +48,11 @@ const Navbar = () => {
             {showSidebar ? (
               <img className="w-[36px] h-[36px]" src={closeIcon} alt="Close" />
             ) : (
-              <img className="w-[28px] h-[36px]" src={hamburgerIcon} alt="Menu" />
+              <img
+                className="w-[28px] h-[36px]"
+                src={hamburgerIcon}
+                alt="Menu"
+              />
             )}
           </button>
         </div>
@@ -114,13 +118,12 @@ const Navbar = () => {
           <img src={Search_icon} className="mr-2" alt="Search" />
         </div>
         <div className="text-white">
-  <img
-    src={bellIcon}
-    alt="Bell"
-    
-    style={{ filter: "drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.6))" }}
-  />
-</div>
+          <img
+            src={bellIcon}
+            alt="Bell"
+            style={{ filter: "drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.6))" }}
+          />
+        </div>
 
         <div className="w-[30px] h-[30px] rounded-full">
           <img
