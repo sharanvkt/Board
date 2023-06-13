@@ -29,7 +29,7 @@ const Dashboard = () => {
     return (
       <div className="flex justify-center items-center h-screen">
         <div
-          className="animate-spin inline-block w-10 h-10 border-[4px] border-current border-t-transparent text-blue-600 rounded-full"
+          className="animate-spin inline-block w-10 h-10 border-[4px] border-current border-t-transparent text-black rounded-full"
           role="status"
           aria-label="loading"
         >
